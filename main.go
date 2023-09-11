@@ -18,7 +18,6 @@ type data struct {
 func main() {
 
 	//currencies := "EUROUSD,GBPUSD"
-	//api_key := "ZZXcztC_G_Aqlxvz6L0A"
 	url := "https://marketdata.tradermade.com/api/v1/convert?api_key=ZZXcztC_G_Aqlxvz6L0A&from=EUR&to=GBP&amount=1000"
 
 	resp, getErr := http.Get(url) // http get request
